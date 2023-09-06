@@ -8,7 +8,7 @@ import (
 
 func reflectNum(arg interface{}) {
 	fmt.Println("type : ", reflect.TypeOf(arg))
-	fmt.Println("type : ", reflect.ValueOf(arg))
+	fmt.Println("value : ", reflect.ValueOf(arg))
 }
 
 func main() {
